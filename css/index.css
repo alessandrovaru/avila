@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
+body{
+  font-family: 'Questrial', sans-serif;
+
+}
+.home{
+  background-image: linear-gradient(to right, #04793d, #249255, #3bac6e, #50c787, #65e2a2);
+  height: 100vh;
+}
+
+.uno{
+  background-color:#4ed15d ;
+  height: 100vh;
+}
+
+.dos{
+  background-color:green ;
+  height: 100vh;
+}
+
+.tres{
+  background-color:blue ;
+  height: 100vh;
+}
+
+.cuatro{
+  background-color:yellow ;
+  height: 100vh;
+}
+
+footer{
+  background-image: linear-gradient(to right, #04793d, #249255, #3bac6e, #50c787, #65e2a2);
+  height: 100px;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  font-size: 34px
+}
+
+.navbar{
+background-color: transparent !important;
+position: absolute;
+
+}
+
+.navbar a{
+  color: white !important
+}
+
+.logo{
+  width: 250px;
+  height: 250px
+}
+
+.shirt{
+  width: 550px;
+  height: 550px;
+}
+
+
+.display-mobile{
+  display: none
+}
+
+.boton{
+  position: absolute;
+  z-index: 9999999;
+}
+.botoncolor{
+  background-color: #00d92b;
+}
+.right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  position: absolute;
+  z-index: 33;
+  width: 600px;
+  height: 100vh
+}
+
+.left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  position: absolute;
+  z-index: 33;
+  width: 600px;
+  height: 100vh;
+  color: white
+}
+
+.logo-container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
+.shirt-container{
+  position: absolute;
+  z-index: 2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
+.grid-absolute{
+  position: absolute;
+  z-index: 1
+}
+.grid{
+  height: 100vh;
+}
+.pink{
+  background-image: linear-gradient(to left, #d9008f, #e20095, #ec009b, #f500a2, #ff00a8);
+}
+.pinker{
+  background-color: #ff00a8
+}
+.blue{
+  background-color: #00dde0
+}
+.bluer{
+  background-image: linear-gradient(to right, #00b7b9, #00c0c3, #00cacc, #00d3d6, #00dde0);
+}
+.yellow{
+  background-image: linear-gradient(to left, #c1ad00, #c9b400, #d0ba00, #d8c100, #e0c800);
+}
+.yellower{
+  background-color: #e0c800
+}
+.red{
+  background-color: #c00000
+}
+.reder{
+  background-image: linear-gradient(to right, #9f0000, #a70000, #af0000, #b80000, #c00000);
+}
+
+.levitate {
+  animation: do-levitation 1.2s alternate ease-in-out infinite;
+}
+.levitate1 {
+  animation: do-levitation 1.2s alternate ease-in-out infinite;
+  animation-delay: 0.5s
+}
+@keyframes do-levitation {
+  0% {
+    transform: translate(0, 0);
+
+  }
+  100% {
+    transform: translate(0, 0.5em);
+
+  }
+}
+@media (max-width:992px) {
+  .shirt{
+    width: 950px;
+    height: 950px;
+  }
+  .logo{
+    width: 550px;
+    height: 550px
+  }
+  .display-web{
+    display: none
+  }
+  .display-mobile{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    z-index: 99999999999999999999999999
+  }
+  .display-mobile h2{
+    font-size: 90px
+  }
+  .right{
+    width: 0;
+  }
+  .botoncolor{
+    width: 300px;
+    height: 100px;
+    font-size: 50px
+  }
+  .navbar-toggler{
+  margin-left: 800px !important;
+  }
+}
